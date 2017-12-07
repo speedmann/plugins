@@ -653,7 +653,7 @@ function run_acme_validation($certObj, $valObj, $acctObj)
                 $proc_env['HE_Password'] = (string)$valObj->dns_he_password;
                 break;
             case 'dns_inwx':
-                $proc_env['INWX_Username'] = (string)$valObj->dns_inwx_user;
+                $proc_env['INWX_User'] = (string)$valObj->dns_inwx_user;
                 $proc_env['INWX_Password'] = (string)$valObj->dns_inwx_password;
                 break;
             case 'dns_infoblox':
